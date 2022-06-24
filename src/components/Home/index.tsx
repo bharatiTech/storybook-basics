@@ -9,7 +9,8 @@ export const Home = (props: any) =>{
         color: '#000'
       }}
       >
-        Hello Storybook World! <br/> {colorName}
+        Hello Storybook World! <br/> 
+        color: {colorName}
       </h2>
     </div>
   )
